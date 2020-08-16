@@ -9,7 +9,7 @@ int main(void){
 	for (int i =1; i < 5; ++i){
 	
 	finalNum = ((firstNum >> d) & 0x000000FF);
-	printf("%d byte of firstNum = %X\n", i, finalNum);
+	printf("%d byte of firstNum = 0x%X\n", i, finalNum);
 	
 	d += 8;
 	
